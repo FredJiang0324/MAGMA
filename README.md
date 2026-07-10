@@ -12,7 +12,8 @@
   <a href="https://github.com/FredJiang0324/MAMGA">
     <img src="https://img.shields.io/github/stars/FredJiang0324/MAMGA?style=social" alt="GitHub Stars">
   </a>
-  <img src="https://img.shields.io/badge/ACL-2026%20Main-blue" alt="ACL 2026 Main">
+  <a href="https://github.com/FredJiang0324/MAMGA">
+    <img src="https://img.shields.io/badge/ACL-2026%20Main-blue" alt="ACL 2026 Main">
 </p>
 
 <h5 align="center"> 🎉 If you are interested, please star ⭐ on GitHub for the latest update.</h5>
