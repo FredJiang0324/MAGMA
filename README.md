@@ -12,19 +12,21 @@
   <a href="https://github.com/FredJiang0324/MAMGA">
     <img src="https://img.shields.io/github/stars/FredJiang0324/MAMGA?style=social" alt="GitHub Stars">
   </a>
-  <a href="https://github.com/FredJiang0324/MAMGA">
+  <a href="https://aclanthology.org/2026.acl-long.1709/">
     <img src="https://img.shields.io/badge/ACL-2026%20Main-blue" alt="ACL 2026 Main">
+  </a>
 </p>
 
 <h5 align="center"> 🎉 If you are interested, please star ⭐ on GitHub for the latest update.</h5>
 
 ## 📢 News
 
+- **[2026/07]** MAGMA is now available on the **ACL Anthology**! Read it here: [![ACL Anthology](https://img.shields.io/badge/ACL-2026%20Main-blue)](https://aclanthology.org/2026.acl-long.1709/)
 - **[2026/04/07]** MAGMA has been accepted by **ACL 2026** at the main conference! We will update the new version of the paper soon. Stay tuned!
 - **[2026/01/06]** Our paper has been submitted to arXiv! Check it out: [![arXiv](https://img.shields.io/badge/arXiv-2601.03236-b31b1b.svg)](https://arxiv.org/abs/2601.03236)
 
 ##  🔥 Research Highlights
-- Read the full paper: <a href="https://arxiv.org/abs/2601.03236" target="_blank">https://arxiv.org/abs/2601.03236</a>
+- Read the full paper: <a href="https://aclanthology.org/2026.acl-long.1709.pdf" target="_blank">https://aclanthology.org/2026.acl-long.1709.pdf</a>
 
 
 ## 📖 Overview
@@ -226,11 +228,26 @@ A more detailed documentation is coming soon 🚀, and we will update in the Git
 **If you find this project useful, please consider citing our paper:**
 
 ```bibtex
-@article{jiang2026magma,
-  title={MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents},
-  author={Jiang, Dongming and Li, Yi and Li, Guanpeng and Li, Bingzhe},
-  journal={arXiv preprint arXiv:2601.03236},
-  year={2026}
+@inproceedings{jiang-etal-2026-magma,
+    title = "{MAGMA}: A Multi-Graph based Agentic Memory Architecture for {AI} Agents",
+    author = "Jiang, Dongming  and
+      Li, Yi  and
+      Li, Guanpeng  and
+      Li, Bingzhe",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.1709/",
+    doi = "10.18653/v1/2026.acl-long.1709",
+    pages = "36848--36865",
+    ISBN = "979-8-89176-390-6",
+    abstract = "Memory-Augmented Generation (MAG) extends large language models with external memory to support long-context reasoning, but existing approaches largely rely on semantic similarity over monolithic memory stores, entangling temporal, causal, and entity information. This design limits interpretability and alignment between query intent and retrieved evidence, leading to suboptimal reasoning accuracy. In this paper, we propose MAGMA, a multi-graph agentic memory architecture that represents each memory item across orthogonal semantic, temporal, causal, and entity graphs. MAGMA formulates retrieval as policy-guided traversal over these relational views, enabling query-adaptive selection and structured context construction. By decoupling memory representation from retrieval logic, MAGMA provides transparent reasoning paths and fine-grained control over retrieval. Experiments on LoCoMo and LongMemEval demonstrate that MAGMA consistently outperforms state-of-the-art agentic memory systems in long-horizon reasoning task."
 }
 ```
 
